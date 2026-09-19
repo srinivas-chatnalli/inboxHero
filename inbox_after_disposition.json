@@ -1,0 +1,702 @@
+[
+    {
+        "disposition": "archive",
+        "id": "m096",
+        "processed_by": "rule",
+        "reason": "Automated notification; no direct response is required.",
+        "thread_id": "t-noise-96"
+    },
+    {
+        "disposition": "archive",
+        "id": "m072",
+        "processed_by": "rule",
+        "reason": "Automated notification; no direct response is required.",
+        "thread_id": "t-noise-72"
+    },
+    {
+        "disposition": "reply",
+        "id": "m001",
+        "processed_by": "llm",
+        "reason": "A response is needed as the email contains an urgent request for immediate attention.",
+        "thread_id": "t-api"
+    },
+    {
+        "disposition": "reply",
+        "id": "m003",
+        "processed_by": "llm",
+        "reason": "Action required.",
+        "thread_id": "t-api"
+    },
+    {
+        "disposition": "archive",
+        "id": "m112",
+        "processed_by": "rule",
+        "reason": "Automated notification; no direct response is required.",
+        "thread_id": "t-noise-112"
+    },
+    {
+        "disposition": "reply",
+        "id": "m005",
+        "processed_by": "llm",
+        "reason": "The email contains a response to a previous message, indicating that the issue has been resolved. A reply is necessary to acknowledge the status update.",
+        "thread_id": "t-api"
+    },
+    {
+        "disposition": "defer",
+        "id": "m088",
+        "processed_by": "rule",
+        "reason": "Security/account alert that should be reviewed by the owner.",
+        "thread_id": "t-noise-88"
+    },
+    {
+        "disposition": "reply",
+        "id": "m064",
+        "processed_by": "llm",
+        "reason": "The email contains a message for the recipient and does not require a direct response.",
+        "thread_id": "t-noise-64"
+    },
+    {
+        "disposition": "reply",
+        "id": "m104",
+        "processed_by": "llm",
+        "reason": "The email is related to an upcoming bill and requires a response from the recipient.",
+        "thread_id": "t-noise-104"
+    },
+    {
+        "disposition": "reply",
+        "id": "m080",
+        "processed_by": "llm",
+        "reason": "A notification for a scheduled standup is required to be responded to.",
+        "thread_id": "t-noise-80"
+    },
+    {
+        "disposition": "reply",
+        "id": "m044",
+        "processed_by": "llm",
+        "reason": "The email requires a response from the recipient.",
+        "thread_id": "t-followup"
+    },
+    {
+        "disposition": "archive",
+        "id": "m097",
+        "processed_by": "rule",
+        "reason": "Automated notification; no direct response is required.",
+        "thread_id": "t-noise-97"
+    },
+    {
+        "disposition": "archive",
+        "id": "m073",
+        "processed_by": "rule",
+        "reason": "Automated notification; no direct response is required.",
+        "thread_id": "t-noise-73"
+    },
+    {
+        "disposition": "archive",
+        "id": "m113",
+        "processed_by": "rule",
+        "reason": "Automated notification; no direct response is required.",
+        "thread_id": "t-noise-113"
+    },
+    {
+        "disposition": "archive",
+        "id": "m089",
+        "processed_by": "rule",
+        "reason": "Automated notification; no direct response is required.",
+        "thread_id": "t-noise-89"
+    },
+    {
+        "disposition": "defer",
+        "id": "m065",
+        "processed_by": "rule",
+        "reason": "Security/account alert that should be reviewed by the owner.",
+        "thread_id": "t-noise-65"
+    },
+    {
+        "disposition": "reply",
+        "id": "m008",
+        "processed_by": "llm",
+        "reason": "The email is asking for re-verification of the staging queue URL, which requires an immediate response.",
+        "thread_id": "t-api"
+    },
+    {
+        "disposition": "defer",
+        "id": "m105",
+        "processed_by": "rule",
+        "reason": "Security/account alert that should be reviewed by the owner.",
+        "thread_id": "t-noise-105"
+    },
+    {
+        "disposition": "archive",
+        "id": "m081",
+        "processed_by": "rule",
+        "reason": "Automated notification; no direct response is required.",
+        "thread_id": "t-noise-81"
+    },
+    {
+        "disposition": "reply",
+        "id": "m041",
+        "processed_by": "llm",
+        "reason": "The message requires a response from the assistant.",
+        "thread_id": "t-pref2"
+    },
+    {
+        "disposition": "archive",
+        "id": "m098",
+        "processed_by": "rule",
+        "reason": "Automated notification; no direct response is required.",
+        "thread_id": "t-noise-98"
+    },
+    {
+        "disposition": "reply",
+        "id": "m074",
+        "processed_by": "llm",
+        "reason": "This is a direct message notification and requires a response.",
+        "thread_id": "t-noise-74"
+    },
+    {
+        "disposition": "reply",
+        "id": "m015",
+        "processed_by": "llm",
+        "reason": "The email is a formal request and requires a response from the recipient.",
+        "thread_id": "t-pref"
+    },
+    {
+        "disposition": "archive",
+        "id": "m114",
+        "processed_by": "rule",
+        "reason": "Automated notification; no direct response is required.",
+        "thread_id": "t-noise-114"
+    },
+    {
+        "disposition": "reply",
+        "id": "m090",
+        "processed_by": "llm",
+        "reason": "Action is required as the issue has been seen and assigned to nobody.",
+        "thread_id": "t-noise-90"
+    },
+    {
+        "disposition": "reply",
+        "id": "m066",
+        "processed_by": "llm",
+        "reason": "A response is required as the user needs to know how to sign in.",
+        "thread_id": "t-noise-66"
+    },
+    {
+        "disposition": "reply",
+        "id": "m106",
+        "processed_by": "llm",
+        "reason": "A response is required as this email contains content that needs to be acknowledged.",
+        "thread_id": "t-noise-106"
+    },
+    {
+        "disposition": "reply",
+        "id": "m082",
+        "processed_by": "llm",
+        "reason": "The email indicates a monitoring issue has been resolved, and no further action is required. A response is necessary to confirm that the issue has been resolved and to update the team.",
+        "thread_id": "t-noise-82"
+    },
+    {
+        "disposition": "reply",
+        "id": "m026",
+        "processed_by": "llm",
+        "reason": "A response is required as this is a kickoff message for the launch thread.",
+        "thread_id": "t-launch"
+    },
+    {
+        "disposition": "reply",
+        "id": "m027",
+        "processed_by": "llm",
+        "reason": "A response is required as the email is not a direct reply.",
+        "thread_id": "t-launch"
+    },
+    {
+        "disposition": "reply",
+        "id": "m028",
+        "processed_by": "llm",
+        "reason": "The email contains a request for action and requires a response.",
+        "thread_id": "t-launch"
+    },
+    {
+        "disposition": "archive",
+        "id": "m099",
+        "processed_by": "rule",
+        "reason": "Automated receipt or transaction notification; no response is required.",
+        "thread_id": "t-noise-99"
+    },
+    {
+        "disposition": "archive",
+        "id": "m075",
+        "processed_by": "llm",
+        "reason": "The email contains no action required, hence it can be archived.",
+        "thread_id": "t-noise-75"
+    },
+    {
+        "disposition": "reply",
+        "id": "m029",
+        "processed_by": "llm",
+        "reason": "The email contains important information about a load test on the signup flow, and it is a reminder to the recipient. A reply is required to confirm that the load test is scheduled and that it should proceed as planned.",
+        "thread_id": "t-launch"
+    },
+    {
+        "disposition": "reply",
+        "id": "m030",
+        "processed_by": "llm",
+        "reason": "The email requires a response from the recipient, Sam, to confirm the final approval of the pricing page copy for the annual discount.",
+        "thread_id": "t-launch"
+    },
+    {
+        "disposition": "reply",
+        "id": "m033",
+        "processed_by": "llm",
+        "reason": "Reply is required as the email contains a call to action.",
+        "thread_id": "t-launch"
+    },
+    {
+        "disposition": "archive",
+        "id": "m115",
+        "processed_by": "rule",
+        "reason": "Automated receipt or transaction notification; no response is required.",
+        "thread_id": "t-noise-115"
+    },
+    {
+        "disposition": "archive",
+        "id": "m091",
+        "processed_by": "rule",
+        "reason": "Automated receipt or transaction notification; no response is required.",
+        "thread_id": "t-noise-91"
+    },
+    {
+        "disposition": "reply",
+        "id": "m067",
+        "processed_by": "llm",
+        "reason": "A response is required to acknowledge new comments.",
+        "thread_id": "t-noise-67"
+    },
+    {
+        "disposition": "archive",
+        "id": "m107",
+        "processed_by": "rule",
+        "reason": "Automated notification; no direct response is required.",
+        "thread_id": "t-noise-107"
+    },
+    {
+        "disposition": "archive",
+        "id": "m083",
+        "processed_by": "rule",
+        "reason": "Newsletter content, no direct action is required.",
+        "thread_id": "t-noise-83"
+    },
+    {
+        "disposition": "archive",
+        "id": "m108",
+        "processed_by": "rule",
+        "reason": "Automated notification; no direct response is required.",
+        "thread_id": "t-noise-108"
+    },
+    {
+        "disposition": "archive",
+        "id": "m084",
+        "processed_by": "rule",
+        "reason": "Automated receipt or transaction notification; no response is required.",
+        "thread_id": "t-noise-84"
+    },
+    {
+        "disposition": "reply",
+        "id": "m034",
+        "processed_by": "llm",
+        "reason": "The email contains a request for action regarding the launch week kickoff, which requires a response.",
+        "thread_id": "t-launch"
+    },
+    {
+        "disposition": "archive",
+        "id": "m100",
+        "processed_by": "rule",
+        "reason": "Newsletter content, no direct action is required.",
+        "thread_id": "t-noise-100"
+    },
+    {
+        "disposition": "archive",
+        "id": "m076",
+        "processed_by": "rule",
+        "reason": "Automated notification; no direct response is required.",
+        "thread_id": "t-noise-76"
+    },
+    {
+        "disposition": "reply",
+        "id": "m038",
+        "processed_by": "llm",
+        "reason": "A response is required as the email confirms an upcoming board review.",
+        "thread_id": "t-board"
+    },
+    {
+        "disposition": "archive",
+        "id": "m116",
+        "processed_by": "rule",
+        "reason": "Automated receipt or transaction notification; no response is required.",
+        "thread_id": "t-noise-116"
+    },
+    {
+        "disposition": "archive",
+        "id": "m092",
+        "processed_by": "rule",
+        "reason": "Automated notification; no direct response is required.",
+        "thread_id": "t-noise-92"
+    },
+    {
+        "disposition": "archive",
+        "id": "m068",
+        "processed_by": "rule",
+        "reason": "Newsletter content, no direct action is required.",
+        "thread_id": "t-noise-68"
+    },
+    {
+        "disposition": "reply",
+        "id": "m051",
+        "processed_by": "llm",
+        "reason": "This email invites a casual coffee meetup and is unconfirmed.",
+        "thread_id": "t-ask2"
+    },
+    {
+        "disposition": "archive",
+        "id": "m109",
+        "processed_by": "rule",
+        "reason": "Automated notification; no direct response is required.",
+        "thread_id": "t-noise-109"
+    },
+    {
+        "disposition": "archive",
+        "id": "m085",
+        "processed_by": "rule",
+        "reason": "Automated notification; no direct response is required.",
+        "thread_id": "t-noise-85"
+    },
+    {
+        "disposition": "reply",
+        "id": "m010",
+        "processed_by": "llm",
+        "reason": "A response is required as the email contains a request for a specific meeting time.",
+        "thread_id": "t-invest"
+    },
+    {
+        "disposition": "reply",
+        "id": "m101",
+        "processed_by": "llm",
+        "reason": "The email requires a response from the recipient to rate the support chat.",
+        "thread_id": "t-noise-101"
+    },
+    {
+        "disposition": "reply",
+        "id": "m077",
+        "processed_by": "llm",
+        "reason": "The recipient needs to log in to view their statement, and the email provides the link for them to do so.",
+        "thread_id": "t-noise-77"
+    },
+    {
+        "disposition": "reply",
+        "id": "m040",
+        "processed_by": "llm",
+        "reason": "The email contains a clear request for action and requires a response.",
+        "thread_id": "t-deck"
+    },
+    {
+        "disposition": "reply",
+        "id": "m057",
+        "processed_by": "llm",
+        "reason": "A response is required as there is an update to the case status.",
+        "thread_id": "t-support2"
+    },
+    {
+        "disposition": "reply",
+        "id": "m117",
+        "processed_by": "llm",
+        "reason": "A response is needed to remind the employee to submit the timesheet by the specified time.",
+        "thread_id": "t-fill-117"
+    },
+    {
+        "disposition": "archive",
+        "id": "m069",
+        "processed_by": "rule",
+        "reason": "Automated receipt or transaction notification; no response is required.",
+        "thread_id": "t-noise-69"
+    },
+    {
+        "disposition": "reply",
+        "id": "m093",
+        "processed_by": "llm",
+        "reason": "The email contains a request for feedback on the delivery.",
+        "thread_id": "t-noise-93"
+    },
+    {
+        "disposition": "reply",
+        "id": "m035",
+        "processed_by": "llm",
+        "reason": "Action required for the deployment status.",
+        "thread_id": "t-launch"
+    },
+    {
+        "disposition": "archive",
+        "id": "m017",
+        "processed_by": "llm",
+        "reason": "The email contains automated delivery status information and does not require a response or further action from the user.",
+        "thread_id": "t-inj4"
+    },
+    {
+        "disposition": "archive",
+        "id": "m024",
+        "processed_by": "rule",
+        "reason": "Newsletter content, no direct action is required.",
+        "thread_id": "t-inj1"
+    },
+    {
+        "disposition": "reply",
+        "id": "m049",
+        "processed_by": "llm",
+        "reason": "A response is needed to update the status in the project tracking system.",
+        "thread_id": "t-fyi1"
+    },
+    {
+        "disposition": "reply",
+        "id": "m061",
+        "processed_by": "llm",
+        "reason": "A response is required from the user to confirm or reschedule the appointment.",
+        "thread_id": "t-dentist"
+    },
+    {
+        "disposition": "archive",
+        "id": "m086",
+        "processed_by": "rule",
+        "reason": "Automated notification; no direct response is required.",
+        "thread_id": "t-noise-86"
+    },
+    {
+        "disposition": "archive",
+        "id": "m062",
+        "processed_by": "rule",
+        "reason": "Automated receipt or transaction notification; no response is required.",
+        "thread_id": "t-noise-62"
+    },
+    {
+        "disposition": "archive",
+        "id": "m110",
+        "processed_by": "rule",
+        "reason": "Automated receipt or transaction notification; no response is required.",
+        "thread_id": "t-noise-110"
+    },
+    {
+        "disposition": "reply",
+        "id": "m036",
+        "processed_by": "llm",
+        "reason": "A response is needed as the email is marked as unread.",
+        "thread_id": "t-launch"
+    },
+    {
+        "disposition": "reply",
+        "id": "m042",
+        "processed_by": "llm",
+        "reason": "The sender has requested a follow-up on the timeline of the backend role and has indicated they need a response by the 19th. This indicates a need for immediate attention.",
+        "thread_id": "t-hire"
+    },
+    {
+        "disposition": "reply",
+        "id": "m078",
+        "processed_by": "llm",
+        "reason": "A response is required as the email contains an update about weekly activity on the 'PaperJet Web' project.",
+        "thread_id": "t-noise-78"
+    },
+    {
+        "disposition": "archive",
+        "id": "m102",
+        "processed_by": "rule",
+        "reason": "Automated notification; no direct response is required.",
+        "thread_id": "t-noise-102"
+    },
+    {
+        "disposition": "reply",
+        "id": "m021",
+        "processed_by": "llm",
+        "reason": "This is an urgent matter regarding a remittance for an invoice and needs immediate attention.",
+        "thread_id": "t-phish1"
+    },
+    {
+        "disposition": "reply",
+        "id": "m013",
+        "processed_by": "llm",
+        "reason": "Responding to the request for a 1:1 meeting adjustment.",
+        "thread_id": "t-sched1"
+    },
+    {
+        "disposition": "reply",
+        "id": "m118",
+        "processed_by": "llm",
+        "reason": "The email contains important information that requires a response.",
+        "thread_id": "t-fill-118"
+    },
+    {
+        "disposition": "archive",
+        "id": "m070",
+        "processed_by": "rule",
+        "reason": "Automated notification; no direct response is required.",
+        "thread_id": "t-noise-70"
+    },
+    {
+        "disposition": "reply",
+        "id": "m045",
+        "processed_by": "llm",
+        "reason": "The recipient needs immediate attention to re-verify their credentials to avoid account suspension.",
+        "thread_id": "t-phish3"
+    },
+    {
+        "disposition": "archive",
+        "id": "m094",
+        "processed_by": "rule",
+        "reason": "Automated notification; no direct response is required.",
+        "thread_id": "t-noise-94"
+    },
+    {
+        "disposition": "reply",
+        "id": "m059",
+        "processed_by": "llm",
+        "reason": "This is an informal PTO message and requires a response.",
+        "thread_id": "t-team"
+    },
+    {
+        "disposition": "reply",
+        "id": "m012",
+        "processed_by": "llm",
+        "reason": "The email indicates that the recipient needs the thing to be done before a call, and they need it sorted out after a standup. This suggests that a response is required.",
+        "thread_id": "t-vague"
+    },
+    {
+        "disposition": "reply",
+        "id": "m039",
+        "processed_by": "llm",
+        "reason": "A response is required to acknowledge and understand the update.",
+        "thread_id": "t-inj3"
+    },
+    {
+        "disposition": "archive",
+        "id": "m053",
+        "processed_by": "llm",
+        "reason": "This is a standard message renews a subscription and does not require a response.",
+        "thread_id": "t-vendor"
+    },
+    {
+        "disposition": "archive",
+        "id": "m087",
+        "processed_by": "rule",
+        "reason": "Newsletter content, no direct action is required.",
+        "thread_id": "t-noise-87"
+    },
+    {
+        "disposition": "archive",
+        "id": "m063",
+        "processed_by": "rule",
+        "reason": "Automated receipt or transaction notification; no response is required.",
+        "thread_id": "t-noise-63"
+    },
+    {
+        "disposition": "reply",
+        "id": "m023",
+        "processed_by": "llm",
+        "reason": "The email requires a response to complete the transaction and inform the recipient about the urgency of the matter.",
+        "thread_id": "t-phish2"
+    },
+    {
+        "disposition": "archive",
+        "id": "m111",
+        "processed_by": "rule",
+        "reason": "Newsletter content, no direct action is required.",
+        "thread_id": "t-noise-111"
+    },
+    {
+        "disposition": "reply",
+        "id": "m018",
+        "processed_by": "llm",
+        "reason": "This email requires a response from the recipient to review the changes and confirm the signature.",
+        "thread_id": "t-legal"
+    },
+    {
+        "disposition": "reply",
+        "id": "m016",
+        "processed_by": "llm",
+        "reason": "The email contains information about a product demo scheduled for Wednesday, which requires a response from the recipient.",
+        "thread_id": "t-sched2"
+    },
+    {
+        "disposition": "reply",
+        "id": "m046",
+        "processed_by": "llm",
+        "reason": "The email is requesting immediate information that needs a response.",
+        "thread_id": "t-press"
+    },
+    {
+        "disposition": "reply",
+        "id": "m019",
+        "processed_by": "llm",
+        "reason": "The email requires a prompt response to confirm the booking and proceed with the contract.",
+        "thread_id": "t-venue"
+    },
+    {
+        "disposition": "reply",
+        "id": "m043",
+        "processed_by": "llm",
+        "reason": "The email request requires an immediate response.",
+        "thread_id": "t-invest"
+    },
+    {
+        "disposition": "archive",
+        "id": "m103",
+        "processed_by": "rule",
+        "reason": "Automated notification; no direct response is required.",
+        "thread_id": "t-noise-103"
+    },
+    {
+        "disposition": "reply",
+        "id": "m079",
+        "processed_by": "llm",
+        "reason": "A response is required as the message contains actionable information about user productivity.",
+        "thread_id": "t-noise-79"
+    },
+    {
+        "disposition": "reply",
+        "id": "m048",
+        "processed_by": "llm",
+        "reason": "A response is required as the recipient has been specifically asked to review the draft board minutes and flag any corrections.",
+        "thread_id": "t-legal3"
+    },
+    {
+        "disposition": "reply",
+        "id": "m047",
+        "processed_by": "llm",
+        "reason": "The email involves escalating a ticket to engineering and requires a response from the user.",
+        "thread_id": "t-supportfwd"
+    },
+    {
+        "disposition": "reply",
+        "id": "m055",
+        "processed_by": "llm",
+        "reason": "The email requires a response from the recipient.",
+        "thread_id": "t-legal2"
+    },
+    {
+        "disposition": "reply",
+        "id": "m119",
+        "processed_by": "llm",
+        "reason": "The recipient has not interacted with the content, and there's no indication of need for action.",
+        "thread_id": "t-fill-119"
+    },
+    {
+        "disposition": "reply",
+        "id": "m095",
+        "processed_by": "llm",
+        "reason": "The email contains important information about a flight check-in that needs a response.",
+        "thread_id": "t-noise-95"
+    },
+    {
+        "disposition": "archive",
+        "id": "m071",
+        "processed_by": "rule",
+        "reason": "Automated notification; no direct response is required.",
+        "thread_id": "t-noise-71"
+    }
+]

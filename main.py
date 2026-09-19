@@ -1,16 +1,45 @@
-# This is a sample Python script.
+import json
+from pathlib import Path
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+from disposition import rule_based_disposition
+from inboxHero.llm_disposition import llm_disposition
+
+BASE_DIR = Path(__file__).resolve().parent
+INBOX_FILE = BASE_DIR / "inbox.json"
+
+def process_inbox(messages, llm_processor):
+    results = []
+    rule_count = 0
+    llm_count = 0
+
+    for message in messages:
+
+        # First try rules
+        result = rule_based_disposition(message)
+
+        if result is not None:
+            rule_count += 1
+        else:
+            # Only now call the LLM
+            result = llm_processor(message)
+            # result = {"disposition": "llm", "reason": "llm", "processed_by": "llm"}
+            result["processed_by"] = "llm"
+            llm_count += 1
+
+        results.append({
+            "id": message["id"],
+            "thread_id": message["thread_id"],
+            "disposition": result["disposition"],
+            "reason": result["reason"],
+            "processed_by": result["processed_by"],
+        })
+
+    return results, rule_count, llm_count
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+if __name__ == "__main__":
+    with open(INBOX_FILE, "r") as f:
+        messages = json.load(f)
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    r, rc, lc = process_inbox(messages, llm_disposition)
+    print(rc, lc)
