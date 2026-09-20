@@ -1,11 +1,11 @@
 {
-  "student": "Ada Example, 2026XXXXXX",
-  "repo": "https://github.com/ada-example/inboxhero",
+  "student": "Srinivas, evernorth-aai-1015118",
+  "repo": "https://github.com/srinivas-chatnalli/inboxHero",
   "system": {
     "framework": "none",
-    "model": "gemini-1.5-flash for triage and drafting; gemini-1.5-pro for the conflict check. Developed against a local llama3.1:8b via Ollama to avoid rate limits.",
-    "messages_processed": 24,
-    "rule_handled": 11,
+    "model": "qwen2.5:1.5B",
+    "messages_processed": 100,
+    "rule_handled": 40,
     "dispositions": [
       "reply",
       "archive",
@@ -31,20 +31,20 @@
     {
       "id": "R1",
       "name": "Zero the inbox",
-      "tier": "B",
-      "claim": "Assigns every message exactly one disposition (reply/archive/defer/delegate/escalate) with a one-line reason, leaving none untouched.",
-      "command": "python demo.py --cap R1",
-      "observable": "Prints a table of all 24 messages, each with a disposition and reason, then the line 'undecided: 0'. Also writes decisions.json.",
-      "evidence": "trace.jsonl, events tagged cap=R1 (one 'decision' event per message id)"
+      "tier": "A",
+      "claim": "Processes every message and assigns exactly one disposition(reply/archive/defer/delegate/escalate) with a reason.",
+      "command": "python main.py --cap R1",
+      "observable": "Processes messages using rules or LLM and writes the disposition, reason, and processing method along with other message details for every message to inbox_messages/inbox_after_disposition.json.",
+      "evidence": "inbox_messages/inbox_after_disposition.json"
     },
     {
       "id": "R2",
       "name": "Grounded reply",
       "tier": "B",
-      "claim": "Drafts a reply that is grounded in a specific earlier message and records the message ids it drew on.",
-      "command": "python demo.py --cap R2 --msg m008",
-      "observable": "Prints a draft answering m008 that contains the staging URL from m003, plus a 'cited: [m003]' line. m003 really contains that URL.",
-      "evidence": "trace.jsonl, events tagged cap=R2 (a 'draft' event whose cited ids appear as earlier 'read' events)"
+      "claim": "Drafts replies using relevant earlier messages from the same thread and records the source message ids used. (Used walking the thread technique)",
+      "command": "python main.py --cap R2",
+      "observable": "Retrieves earlier messages from the same thread, drafts a grounded reply, and writes the reply and source message ids to inbox_messages/inbox_after_reply.json.",
+      "evidence": "inbox_messages/inbox_after_reply.json"
     },
     {
       "id": "R3",

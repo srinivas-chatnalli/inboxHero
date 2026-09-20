@@ -40,3 +40,10 @@ Processed by LLM: 60
 
 - 40 of them never required a model call
 
+## Part 3 Answer
+
+Retrieval method: Walking the thread.
+For all messages with the `reply` disposition, I first retrieved the previous messages 
+with the same `thread_id` and with a timestamp earlier than the current message. 
+I then passed the current message along with the previous messages to the LLM to 
+generate a draft reply for the current message.

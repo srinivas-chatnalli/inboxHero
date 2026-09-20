@@ -1,45 +1,30 @@
+import argparse
 import json
 from pathlib import Path
 
-from disposition import rule_based_disposition
-from inboxHero.llm_disposition import llm_disposition
+from disposition import process_inbox
+from reply import get_draft_reply_for_messages
 
 BASE_DIR = Path(__file__).resolve().parent
-INBOX_FILE = BASE_DIR / "inbox.json"
+INBOX_FILE = BASE_DIR / "inbox_messages/inbox.json"
+DISPOSITION_FILE = BASE_DIR / "inbox_messages/inbox_after_disposition.json"
 
-def process_inbox(messages, llm_processor):
-    results = []
-    rule_count = 0
-    llm_count = 0
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--cap", required=True)
+    args = parser.parse_args()
 
-    for message in messages:
-
-        # First try rules
-        result = rule_based_disposition(message)
-
-        if result is not None:
-            rule_count += 1
-        else:
-            # Only now call the LLM
-            result = llm_processor(message)
-            # result = {"disposition": "llm", "reason": "llm", "processed_by": "llm"}
-            result["processed_by"] = "llm"
-            llm_count += 1
-
-        results.append({
-            "id": message["id"],
-            "thread_id": message["thread_id"],
-            "disposition": result["disposition"],
-            "reason": result["reason"],
-            "processed_by": result["processed_by"],
-        })
-
-    return results, rule_count, llm_count
+    if args.part == "R1":
+        with open(INBOX_FILE, "r") as f:
+            inbox_messages = json.load(f)
+        process_inbox(inbox_messages)
+    elif args.part == "R2":
+        with open(DISPOSITION_FILE, "r") as f:
+            disposition_messages = json.load(f)
+        get_draft_reply_for_messages(disposition_messages)
+    else:
+        print(f"Part {args.part} is not implemented.")
 
 
 if __name__ == "__main__":
-    with open(INBOX_FILE, "r") as f:
-        messages = json.load(f)
-
-    r, rc, lc = process_inbox(messages, llm_disposition)
-    print(rc, lc)
+    main()
