@@ -5,7 +5,7 @@ from ollama import chat
 
 from config import MODEL
 
-def ask_model(system_prompt, user_prompt):
+def ask_model(system_prompt, user_prompt, tools=None):
     messages = [
         {
             "role": "system",
@@ -16,10 +16,15 @@ def ask_model(system_prompt, user_prompt):
             "content": user_prompt,
         },
     ]
-    response = chat(
-            model=MODEL,
-            messages=messages,
-            think=False
-        )
+
+    kwargs = {
+        "model": MODEL,
+        "messages": messages
+    }
+
+    if tools:
+        kwargs["tools"] = tools
+
+    response = chat(**kwargs)
 
     return response

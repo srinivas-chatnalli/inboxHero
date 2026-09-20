@@ -4,6 +4,7 @@ from pathlib import Path
 
 from disposition import process_inbox
 from inboxHero.actions import perform_actions
+from inboxHero.memory import process_message
 from reply import get_draft_reply_for_messages
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -22,10 +23,12 @@ def main():
         with open(INBOX_FILE, "r") as f:
             inbox_messages = json.load(f)
         process_inbox(inbox_messages)
+
     elif args.cap == "R2":
         with open(DISPOSITION_FILE, "r") as f:
             disposition_messages = json.load(f)
         get_draft_reply_for_messages(disposition_messages)
+
     elif args.cap == "R3":
         with open(DRAFT_REPLY_FILE, "r") as f:
             messages_with_draft_reply = json.load(f)
@@ -34,6 +37,14 @@ def main():
             perform_actions(message)
         else:
             perform_actions(messages_with_draft_reply)
+
+    elif args.cap == "R4":
+        with open(INBOX_FILE, "r") as f:
+            inbox_messages = json.load(f)
+        if args.message_id and any(args.message_id == message.get("id") for message in inbox_messages):
+            message = [message for message in inbox_messages if args.message_id == message.get('id')]
+            process_message(message[0])
+
     else:
         print(f"Capability {args.cap} is not implemented.")
 
