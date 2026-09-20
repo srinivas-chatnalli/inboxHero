@@ -20,9 +20,8 @@
     ],
     "reversible": [
       "draft",
-      "label",
       "archive",
-      "defer"
+      "mark_read"
     ],
     "gate": "both",
     "preference_demo": "m031: always CC co-founder on Legal mail"
@@ -50,10 +49,10 @@
       "id": "R3",
       "name": "Gate the irreversible",
       "tier": "C",
-      "claim": "Never sends or deletes without either per-action approval or an explicit --dry-run that shows what it would do.",
-      "command": "python demo.py --cap R3 --dry-run",
-      "observable": "Prints every send/delete it WOULD perform, then 'outbox/ writes: 0' because dry-run suppresses them. Re-running without --dry-run prompts y/n before each send.",
-      "evidence": "trace.jsonl, events tagged cap=R3 ('gate' events recording proposed action and decision)"
+      "claim": "Requires human approval before performing irreversible actions such as send and delete, while reversible actions such as draft, archive, and mark_read can be performed automatically.",
+      "command": "python main.py --cap R3 --message_id m005",
+      "observable": "Shows the proposed action, prompts for approval before send/delete, performs the action only when approved, and records the proposed action, human decision, and outcome.",
+      "evidence": "logs/action_operation_logs, outbox"
     },
     {
       "id": "R4",

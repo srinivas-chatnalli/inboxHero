@@ -6,8 +6,8 @@
 Run everything through one entry point:
 
 ```
-python demo.py --cap R1        # one capability
-python demo.py --all           # all of them, in the order below
+python main.py --cap R1        # one capability
+python main.py --all           # all of them, in the order below
 ```
 
 ---
@@ -47,3 +47,17 @@ For all messages with the `reply` disposition, I first retrieved the previous me
 with the same `thread_id` and with a timestamp earlier than the current message. 
 I then passed the current message along with the previous messages to the LLM to 
 generate a draft reply for the current message.
+
+
+## Part 4 Answer
+
+Reversible Actions: draft, archive, mark_read
+Irreversible Actions: send, delete
+
+- In my design, I consider delete as an irreversible action because deleting an email requires human approval.
+- I require human approval only for irreversible actions such as sending or deleting an email. Reversible actions can be performed automatically.
+- This reduces the number of approval requests and avoids asking the user to approve every reversible action. 
+The trade-off is that reversible actions may be performed automatically without explicit approval.
+
+Note:
+In this assignment, the reply disposition maps to the send action, and the archive disposition maps to the archive action.

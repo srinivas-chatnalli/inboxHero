@@ -1,0 +1,6 @@
+{
+    "message_id": "m005",
+    "to": "sam@paperjet.io",
+    "subject": "Re: Staging is down again",
+    "body": "Rotated the broker creds and updated the staging AMQP URL to amqp://pj_stage:Rk7-quiet-otter-51@broker-stg.paperjet.io:5672/pjs. The worker should now point to this new URL and restart. The old creds are no longer valid. Please verify and restart the worker to ensure everything is functioning as expected."
+}

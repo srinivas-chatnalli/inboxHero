@@ -53,11 +53,6 @@ def get_draft_reply_for_messages(all_messages):
         if current_message.get('disposition') == 'reply':
             previous_messages = get_all_the_previous_messages(current_message, all_messages)
 
-            if not previous_messages:
-                current_message['reply'] = None
-                current_message['source_message_ids'] = []
-                final_messages.append(current_message)
-                continue
             prompt = f"""
                     Current message:
                     {current_message}
@@ -77,6 +72,10 @@ def get_draft_reply_for_messages(all_messages):
             llm_json = json.loads(text.strip())
             current_message['reply'] = llm_json.get('reply')
             current_message['source_message_ids'] = llm_json.get('source_message_ids', [])
+            final_messages.append(current_message)
+        else:
+            current_message['reply'] = None
+            current_message['source_message_ids'] = []
             final_messages.append(current_message)
 
     with open(DRAFT_REPLY_FILE, "w", encoding="utf-8") as f:
