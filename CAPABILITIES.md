@@ -23,3 +23,20 @@ Data format Assumptions:
 - `id` is a unique key and identifies an individual message.
 - `thread_id` groups messages that belong to the same category.
 - `unread` is a boolean value (if True the mail is not read).
+
+
+## Part 2 Answer
+
+DISPOSITIONS:
+- reply: A response is required.
+- archive: No action is required.
+- defer: Action may be required later.
+- delegate: Another person or team should handle it.
+- escalate: The message requires the owner's direct attention.
+
+Total messages: 100
+Processed by Python script rules: 40
+Processed by LLM: 60
+
+- 40 of them never required a model call
+
