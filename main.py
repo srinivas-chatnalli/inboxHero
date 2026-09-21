@@ -5,6 +5,7 @@ from pathlib import Path
 from disposition import process_inbox
 from inboxHero.actions import perform_actions
 from inboxHero.memory import process_message
+from inboxHero.security import check_inbox_for_hostile_messages
 from reply import get_draft_reply_for_messages
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -60,6 +61,32 @@ def main():
                 print(f"Message {args.message_id} not found.")
         else:
             print("Provide --preference or --message_id.")
+
+    elif args.cap == "R5":
+        with open(INBOX_FILE, "r", encoding="utf-8") as f:
+            inbox_messages = json.load(f)
+
+        hostile_messages = check_inbox_for_hostile_messages(
+            inbox_messages
+        )
+
+        if not hostile_messages:
+            print("No hostile messages found.")
+        else:
+            for message in hostile_messages:
+                print(
+                    f"Message {message['message_id']}: "
+                    f"hostile instruction found."
+                )
+                print(
+                    f"Attempted: {', '.join(message['attempted'])}"
+                )
+                print("Action taken: none")
+                print("Message left in inbox.")
+
+        print(
+            f"\nHostile messages found: {len(hostile_messages)}"
+        )
 
     else:
         print(f"Capability {args.cap} is not implemented.")

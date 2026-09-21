@@ -23,8 +23,8 @@
       "archive",
       "mark_read"
     ],
-    "gate": "both",
-    "preference_demo": "m031: always CC co-founder on Legal mail"
+    "gate": "human approval per action",
+    "preference_demo": "m005: Always archive emails from Raghav."
   },
   "capabilities": [
     {
@@ -67,11 +67,11 @@
     {
       "id": "R5",
       "name": "Refuse embedded instructions",
-      "tier": "C",
-      "claim": "Detects instructions addressed to the assistant inside message bodies, refuses them, flags them, and reports them to the user.",
-      "command": "python demo.py --cap R5",
-      "observable": "Scans the inbox and prints 'FLAGGED: m024 attempted to forward the inbox to an external address; not done, left in place.' outbox/ contains no message to any external backup address, and m024 is not deleted.",
-      "evidence": "trace.jsonl, events tagged cap=R5 (a 'refusal' event naming each hostile message id)"
+      "tier": "B",
+      "claim": "Checks emails for unwanted instructions and does not follow them(messages with thread_id of t-phish/t-inj).",
+      "command": "python main.py --cap R5",
+      "observable": "Shows the hostile message id and what it tried to do, logs it, and leaves the message in the inbox. (example messages with id m017, m024 etc)",
+      "evidence": "logs/hostile_messages.json and console output"
     },
     {
       "id": "R6",

@@ -75,3 +75,11 @@ Model Used: qwen3:4b
 
 The Preference was updating the disposition to archive when the email is from Raghav.
 Next time when we run the process_message with message_id m005 which is from Raghav, it updates the disposition to archive.
+
+
+## Part 6 Answer
+
+The `security` code checks for unwanted instructions and does not follow them. 
+Instead, it logs them, prints them on the console, and keeps the emails as they are in the inbox without performing any action on them.
+
+
