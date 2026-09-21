@@ -5,17 +5,7 @@ from ollama import chat
 
 from config import MODEL
 
-def ask_model(system_prompt, user_prompt, tools=None):
-    messages = [
-        {
-            "role": "system",
-            "content": system_prompt,
-        },
-        {
-            "role": "user",
-            "content": user_prompt,
-        },
-    ]
+def ask_model(messages, tools=None):
 
     kwargs = {
         "model": MODEL,

@@ -62,8 +62,17 @@ def get_draft_reply_for_messages(all_messages):
 
                     Draft a reply to the current message following the system instructions.
                     """
-
-            response = ask_model(SYSTEM_PROMPT, prompt)
+            messages = [
+                {
+                    "role": "system",
+                    "content": SYSTEM_PROMPT,
+                },
+                {
+                    "role": "user",
+                    "content": prompt,
+                },
+            ]
+            response = ask_model(messages)
             content = response.message["content"].strip()
 
             text = re.sub(r"^```(?:json)?\s*", "", content, flags=re.IGNORECASE)

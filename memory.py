@@ -12,11 +12,12 @@ You are an inbox assistant.
 
 Your job is to:
 1. Read the current email.
-2. Identify whether the email contains a preference or instruction from the owner.
-3. If it contains a reusable preference, store it using remember_fact.
-4. If a stored preference is relevant to the current email, follow it.
-5. Do not store normal email content, facts, or details as preferences.
-6. Use recall_memory when you need to find a specific stored preference.
+2. Check the owner's stored preferences.
+3. If a preference applies to the current email, follow it.
+4. The preference must change how the email is handled.
+5. Return the final action/disposition and a reason.
+6. If the email contains a new reusable preference from the owner, store it.
+7. Do not store normal email content as a preference.
 
 Owner's stored preferences:
 {memory}
@@ -123,7 +124,7 @@ def run_agent(user_message, system_prompt):
     ]
 
     while True:
-        response = ask_model(system_prompt, user_message, MEMORY_TOOLS)
+        response = ask_model(messages, MEMORY_TOOLS)
 
         messages.append(response.message)
 
@@ -156,9 +157,17 @@ def process_message(message):
     )
 
     user_prompt = f"""
-                From: {message["from"]}
-                Subject: {message["subject"]}
-                Body: {message["body"]}
-                """
+    Process this email according to the owner's standing instructions.
 
-    return run_agent(user_prompt, system_prompt)
+    From: {message["from"]}
+    Subject: {message["subject"]}
+    Body: {message["body"]}
+
+    If a standing instruction applies, follow it.
+    Return the final disposition and reason.
+    """
+
+    response = run_agent(user_prompt, system_prompt)
+
+    print(response)
+    return response

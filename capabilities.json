@@ -3,7 +3,7 @@
   "repo": "https://github.com/srinivas-chatnalli/inboxHero",
   "system": {
     "framework": "none",
-    "model": "qwen2.5:1.5B",
+    "model": "qwen2.5:1.5B/qwen3:4b",
     "messages_processed": 100,
     "rule_handled": 40,
     "dispositions": [
@@ -58,10 +58,11 @@
       "id": "R4",
       "name": "Persistent preference",
       "tier": "C",
-      "claim": "Records a stated preference and applies it on a later run after the process has fully exited.",
-      "command": "python demo.py --cap R4",
-      "observable": "First invocation stores 'CC co-founder on Legal mail' (from m031) to prefs.json and exits. Second invocation, fresh process, handles the Legal message m018-equivalent and adds the co-founder to CC without being told again.",
-      "evidence": "prefs.json on disk between runs; trace.jsonl events tagged cap=R4"
+      "claim": "Stores an owner's preference and uses it when processing a later message.",
+      "command": "python main.py --cap R4 --preference 'Always archive emails from Raghav.'",
+      "command_2": "python main.py --cap R4 --message_id m005",
+      "observable": "Stores the preference in memory.json (preference is Always archive emails from Raghav) and uses it when the related message is processed after restart.",
+      "evidence": "memory.json and processing output"
     },
     {
       "id": "R5",

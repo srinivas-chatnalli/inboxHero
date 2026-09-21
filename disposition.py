@@ -101,7 +101,18 @@ def llm_disposition(message):
     {message}
     """
 
-    response = ask_model(SYSTEM_PROMPT, prompt)
+    messages = [
+        {
+            "role": "system",
+            "content": SYSTEM_PROMPT,
+        },
+        {
+            "role": "user",
+            "content": prompt,
+        },
+    ]
+
+    response = ask_model(messages)
     content = response.message["content"].strip()
 
     text = re.sub(r"^```(?:json)?\s*", "", content, flags=re.IGNORECASE)

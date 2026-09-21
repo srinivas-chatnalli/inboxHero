@@ -14,6 +14,8 @@ python main.py --all           # all of them, in the order below
 
 ## Part 1 Answer
 
+Model Used: qwen2.5:1.5B
+
 The provided `inbox.json` contains 100 messages. 
 The system will check the messages from the inbox and determine which messages require further processing.
 Out of 100 messages not all the messages will be sent to an LLM. Some messages can be filtered through simple filters.
@@ -26,6 +28,8 @@ Data format Assumptions:
 
 
 ## Part 2 Answer
+
+Model Used: qwen2.5:1.5B
 
 DISPOSITIONS:
 - reply: A response is required.
@@ -41,6 +45,8 @@ Processed by LLM: 60
 - 40 of them never required a model call
 
 ## Part 3 Answer
+
+Model Used: qwen2.5:1.5B
 
 Retrieval method: Walking the thread.
 For all messages with the `reply` disposition, I first retrieved the previous messages 
@@ -61,3 +67,11 @@ The trade-off is that reversible actions may be performed automatically without 
 
 Note:
 In this assignment, the reply disposition maps to the send action, and the archive disposition maps to the archive action.
+
+
+## Part 5 Answer
+
+Model Used: qwen3:4b
+
+The Preference was updating the disposition to archive when the email is from Raghav.
+Next time when we run the process_message with message_id m005 which is from Raghav, it updates the disposition to archive.
