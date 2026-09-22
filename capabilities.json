@@ -88,17 +88,17 @@
       "tier": "A",
       "claim": "Shows all unread emails.",
       "command": "python demo.py --cap X1",
-      "observable": "Creates unread_messages.json with the unread emails.",
-      "evidence": "unread_messages.json"
+      "observable": "Creates inbox_messages/unread_messages.json with the unread emails.",
+      "evidence": "inbox_messages/unread_messages.json"
     },
     {
       "id": "X2",
-      "name": "Morning digest",
-      "tier": "B",
-      "claim": "Produces a one-screen digest: what needs me today, what can wait, and what was auto-archived.",
+      "name": "Sender Summary",
+      "tier": "A",
+      "claim": "Shows the number of emails received from each sender.",
       "command": "python demo.py --cap X2",
-      "observable": "Prints three sections. 'Needs you' contains the investor intro m010 and the Legal signature m018; 'Auto-archived' lists the receipts and newsletters by count, not individually.",
-      "evidence": "trace.jsonl, events tagged cap=X2"
+      "observable": "Creates inbox_messages/sender_summary.json with sender email counts and unread counts.",
+      "evidence": "inbox_messages/sender_summary.json"
     }
   ]
 }

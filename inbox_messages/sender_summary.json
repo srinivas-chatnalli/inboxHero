@@ -1,0 +1,322 @@
+{
+    "no-reply@dropbox.com": {
+        "total": 1,
+        "unread": 0
+    },
+    "notifications@slack.com": {
+        "total": 1,
+        "unread": 0
+    },
+    "raghav@paperjet.io": {
+        "total": 5,
+        "unread": 5
+    },
+    "sam@paperjet.io": {
+        "total": 4,
+        "unread": 4
+    },
+    "no-reply@vercel.com": {
+        "total": 1,
+        "unread": 1
+    },
+    "no-reply@1password.com": {
+        "total": 1,
+        "unread": 1
+    },
+    "ship-confirm@amazon.com": {
+        "total": 1,
+        "unread": 1
+    },
+    "info@members.netflix.com": {
+        "total": 1,
+        "unread": 1
+    },
+    "calendar-notification@google.com": {
+        "total": 1,
+        "unread": 1
+    },
+    "no-reply@apple.com": {
+        "total": 1,
+        "unread": 1
+    },
+    "no-reply@spotify.com": {
+        "total": 1,
+        "unread": 1
+    },
+    "no-reply@coursera.org": {
+        "total": 2,
+        "unread": 2
+    },
+    "no-reply@lyft.com": {
+        "total": 1,
+        "unread": 1
+    },
+    "noreply@github.com": {
+        "total": 2,
+        "unread": 2
+    },
+    "devika@paperjet.io": {
+        "total": 2,
+        "unread": 2
+    },
+    "noreply@figma.com": {
+        "total": 1,
+        "unread": 0
+    },
+    "noreply@bluebottlecoffee.com": {
+        "total": 1,
+        "unread": 0
+    },
+    "noreply@pagerduty.com": {
+        "total": 1,
+        "unread": 1
+    },
+    "hello@producthunt.com": {
+        "total": 1,
+        "unread": 1
+    },
+    "priya@paperjet.io": {
+        "total": 6,
+        "unread": 6
+    },
+    "no-reply@accounts.google.com": {
+        "total": 1,
+        "unread": 0
+    },
+    "alerts@sentry.io": {
+        "total": 1,
+        "unread": 0
+    },
+    "security@accounts.google.com": {
+        "total": 1,
+        "unread": 0
+    },
+    "support@postmarkapp.com": {
+        "total": 1,
+        "unread": 1
+    },
+    "alerts@datadoghq.com": {
+        "total": 1,
+        "unread": 1
+    },
+    "dan@paperjet.io": {
+        "total": 2,
+        "unread": 2
+    },
+    "maya@paperjet.io": {
+        "total": 2,
+        "unread": 2
+    },
+    "no_reply@email.apple.com": {
+        "total": 2,
+        "unread": 0
+    },
+    "support@namecheap.com": {
+        "total": 1,
+        "unread": 0
+    },
+    "receipts@openai.com": {
+        "total": 1,
+        "unread": 1
+    },
+    "billing@notion.so": {
+        "total": 1,
+        "unread": 1
+    },
+    "notify@mail.notion.so": {
+        "total": 1,
+        "unread": 1
+    },
+    "noreply@cloudflare.com": {
+        "total": 1,
+        "unread": 1
+    },
+    "newsletter@pragmaticengineer.com": {
+        "total": 1,
+        "unread": 1
+    },
+    "notifications@robinhood.com": {
+        "total": 1,
+        "unread": 0
+    },
+    "no-reply@mailchimp.com": {
+        "total": 1,
+        "unread": 1
+    },
+    "no-reply@zoom.us": {
+        "total": 1,
+        "unread": 1
+    },
+    "chair@paperjet-board.org": {
+        "total": 1,
+        "unread": 1
+    },
+    "billing@digitalocean.com": {
+        "total": 1,
+        "unread": 1
+    },
+    "info@twitter.com": {
+        "total": 1,
+        "unread": 1
+    },
+    "noreply@medium.com": {
+        "total": 1,
+        "unread": 1
+    },
+    "wintermute@oldfriends.net": {
+        "total": 1,
+        "unread": 1
+    },
+    "no-reply@substack.com": {
+        "total": 1,
+        "unread": 1
+    },
+    "notifications@stripe.com": {
+        "total": 1,
+        "unread": 1
+    },
+    "aria.f@northwind.vc": {
+        "total": 2,
+        "unread": 2
+    },
+    "feedback@intercom.io": {
+        "total": 1,
+        "unread": 1
+    },
+    "alerts@chase.com": {
+        "total": 1,
+        "unread": 1
+    },
+    "help@paystream.com": {
+        "total": 1,
+        "unread": 0
+    },
+    "hr@paperjet.io": {
+        "total": 1,
+        "unread": 0
+    },
+    "invoice+statements@vercel.com": {
+        "total": 1,
+        "unread": 0
+    },
+    "orders@instacart.com": {
+        "total": 1,
+        "unread": 0
+    },
+    "mailer-daemon@relay-postmaster.net": {
+        "total": 1,
+        "unread": 1
+    },
+    "noreply@newsletter-weekly-digest.com": {
+        "total": 1,
+        "unread": 1
+    },
+    "status@paperjet-monitoring.io": {
+        "total": 1,
+        "unread": 0
+    },
+    "appointments@brightsmile-dental.com": {
+        "total": 1,
+        "unread": 1
+    },
+    "notifications@calendly.com": {
+        "total": 1,
+        "unread": 1
+    },
+    "orders@swiggy.in": {
+        "total": 1,
+        "unread": 1
+    },
+    "receipts@ramp.com": {
+        "total": 1,
+        "unread": 1
+    },
+    "jordan.okafor@gmail.com": {
+        "total": 1,
+        "unread": 1
+    },
+    "updates@figma.com": {
+        "total": 1,
+        "unread": 0
+    },
+    "no-reply@doordash.com": {
+        "total": 1,
+        "unread": 0
+    },
+    "billing@cloudscale-invoicing.com": {
+        "total": 1,
+        "unread": 1
+    },
+    "facilities@paperjet.io": {
+        "total": 1,
+        "unread": 1
+    },
+    "notifications@linkedin.com": {
+        "total": 1,
+        "unread": 1
+    },
+    "it-security@paperjet-helpdesk.com": {
+        "total": 1,
+        "unread": 1
+    },
+    "success@zenboard.io": {
+        "total": 1,
+        "unread": 0
+    },
+    "digest@hackernewsletter.com": {
+        "total": 1,
+        "unread": 0
+    },
+    "receipts@uber.com": {
+        "total": 1,
+        "unread": 0
+    },
+    "priya.nair@paperjet.co": {
+        "total": 1,
+        "unread": 1
+    },
+    "no-reply@todoist.com": {
+        "total": 1,
+        "unread": 0
+    },
+    "m.cho@hartwellcho.com": {
+        "total": 2,
+        "unread": 2
+    },
+    "partners@acme-corp.com": {
+        "total": 1,
+        "unread": 1
+    },
+    "editor@techbrief.news": {
+        "total": 1,
+        "unread": 1
+    },
+    "events@thegrandvenue.com": {
+        "total": 1,
+        "unread": 1
+    },
+    "insights@grammarly.com": {
+        "total": 1,
+        "unread": 1
+    },
+    "j.hartwell@hartwellcho.com": {
+        "total": 1,
+        "unread": 1
+    },
+    "support@zenboard.io": {
+        "total": 1,
+        "unread": 1
+    },
+    "notes@paperjet.io": {
+        "total": 1,
+        "unread": 0
+    },
+    "checkin@united.com": {
+        "total": 1,
+        "unread": 1
+    },
+    "no-reply-aws@amazon.com": {
+        "total": 1,
+        "unread": 1
+    }
+}

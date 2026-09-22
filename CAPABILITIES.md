@@ -99,3 +99,7 @@ The `dashboard` code creates a dashboard with three sections: pending actions, f
 
 Shows all unread emails from the inbox.
 
+
+## Capability X2 – Sender Summary
+
+Shows how many emails each sender has sent and how many of them are unread.

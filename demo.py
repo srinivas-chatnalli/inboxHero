@@ -99,6 +99,10 @@ def main():
         result = track_unread_messages()
         print(json.dumps(result, indent=4))
 
+    elif args.cap == "X2":
+        result = create_sender_summary()
+        print(json.dumps(result, indent=4))
+
     else:
         print(f"Capability {args.cap} is not implemented.")
 
