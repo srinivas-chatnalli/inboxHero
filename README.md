@@ -52,14 +52,14 @@ No Framework is used, I wanted to code without using any framework as the use-ca
 
 ## Reversible and Irreversible Actions
 
-Reversible Actions: draft, archive, mark_read
-Irreversible Actions: send, delete
+- Reversible Actions: draft, archive, mark_read
+- Irreversible Actions: send, delete
 
 
 ## Gate and Retrieval approach
 
-Gate: human approval per irreversible action
-Retrieval approach: walking the thread
+- Gate: human approval per irreversible action
+- Retrieval approach: walking the thread
 
 
 ## Run instructions
