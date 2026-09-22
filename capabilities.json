@@ -59,8 +59,7 @@
       "name": "Persistent preference",
       "tier": "C",
       "claim": "Stores an owner's preference and uses it when processing a later message.",
-      "command": "python demo.py --cap R4 --preference 'Always archive emails from Raghav.'",
-      "command_2": "python demo.py --cap R4 --message_id m005",
+      "command": "python demo.py --cap R4 --message_id m005",
       "observable": "Stores the preference in memory.json (preference is Always archive emails from Raghav) and uses it when the related message is processed after restart.",
       "evidence": "memory.json and processing output"
     },

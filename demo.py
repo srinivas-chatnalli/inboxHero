@@ -1,5 +1,7 @@
 import argparse
 import json
+import subprocess
+import sys
 from pathlib import Path
 
 from disposition import process_inbox
@@ -17,13 +19,34 @@ INBOX_FILE = BASE_DIR / "inbox_messages/inbox.json"
 DISPOSITION_FILE = BASE_DIR / "inbox_messages/inbox_after_disposition.json"
 DRAFT_REPLY_FILE = BASE_DIR / "inbox_messages/inbox_after_draft_reply.json"
 
+
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--cap", required=True)
+    parser.add_argument("--cap", required=False)
     # For now it supports only for R3/R4 (Please don't use for other capabilities)
     parser.add_argument("--message_id", required=False)
-    parser.add_argument("--preference", required=False)
+    parser.add_argument("--all", action="store_true")
     args = parser.parse_args()
+
+    if args.all:
+        capabilities = ["R1", "R2", "R3", "R4", "R5", "R6", "X1", "X2", "X3"]
+
+        for cap in capabilities:
+            print(f"\n========== Running {cap} ==========\n")
+
+            command = [
+                sys.executable,
+                str(Path(__file__).resolve()),
+                "--cap",
+                cap
+            ]
+
+            if cap == "R4":
+                command.extend(["--message_id", "m005"])
+
+            subprocess.run(command)
+
+        return
 
     if args.cap == "R1":
         with open(INBOX_FILE, "r") as f:
@@ -45,26 +68,28 @@ def main():
             perform_actions(messages_with_draft_reply)
 
     elif args.cap == "R4":
-        if args.preference:
+        if args.message_id:
             process_message({
                 "from": "owner",
                 "subject": "Standing instruction",
-                "body": args.preference
+                "body": "Always archive emails from Raghav."
             })
-        elif args.message_id:
+
             with open(INBOX_FILE, "r") as f:
                 inbox_messages = json.load(f)
+
             message = next(
                 (message for message in inbox_messages
                  if message.get("id") == args.message_id),
                 None
             )
+
             if message:
                 process_message(message)
             else:
                 print(f"Message {args.message_id} not found.")
         else:
-            print("Provide --preference or --message_id.")
+            print("Provide --message_id.")
 
     elif args.cap == "R5":
         with open(INBOX_FILE, "r", encoding="utf-8") as f:
