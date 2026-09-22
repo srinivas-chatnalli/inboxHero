@@ -99,6 +99,15 @@
       "command": "python demo.py --cap X2",
       "observable": "Creates inbox_messages/sender_summary.json with sender email counts and unread counts.",
       "evidence": "inbox_messages/sender_summary.json"
+    },
+    {
+      "id": "X2",
+      "name": "Email Age Tracker",
+      "tier": "A",
+      "claim": "Shows how old each email is.",
+      "command": "python demo.py --cap X3",
+      "observable": "Creates inbox_messages/email_age.json with the age of each email.",
+      "evidence": "inbox_messages/email_age.json"
     }
   ]
 }

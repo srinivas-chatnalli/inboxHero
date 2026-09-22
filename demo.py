@@ -103,6 +103,10 @@ def main():
         result = create_sender_summary()
         print(json.dumps(result, indent=4))
 
+    elif args.cap == "X3":
+        result = track_email_age()
+        print(json.dumps(result, indent=4))
+
     else:
         print(f"Capability {args.cap} is not implemented.")
 

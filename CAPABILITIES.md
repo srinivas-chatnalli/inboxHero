@@ -103,3 +103,8 @@ Shows all unread emails from the inbox.
 ## Capability X2 – Sender Summary
 
 Shows how many emails each sender has sent and how many of them are unread.
+
+
+## Capability X3 – Email Age Tracker
+
+Shows how old each email is based on its timestamp.

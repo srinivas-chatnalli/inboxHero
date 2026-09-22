@@ -1,0 +1,702 @@
+[
+    {
+        "id": "m096",
+        "subject": "Dropbox: your files are almost full",
+        "from": "no-reply@dropbox.com",
+        "age_days": 20,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m072",
+        "subject": "Slack: 12 unread messages in #general",
+        "from": "notifications@slack.com",
+        "age_days": 20,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m001",
+        "subject": "Staging is down again",
+        "from": "raghav@paperjet.io",
+        "age_days": 19,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m003",
+        "subject": "Re: Staging is down again",
+        "from": "sam@paperjet.io",
+        "age_days": 19,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m112",
+        "subject": "Your monthly Vercel usage",
+        "from": "no-reply@vercel.com",
+        "age_days": 19,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m005",
+        "subject": "Re: Staging is down again",
+        "from": "raghav@paperjet.io",
+        "age_days": 19,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m088",
+        "subject": "Your password was changed",
+        "from": "no-reply@1password.com",
+        "age_days": 19,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m064",
+        "subject": "Your Amazon order has shipped",
+        "from": "ship-confirm@amazon.com",
+        "age_days": 19,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m104",
+        "subject": "Your Netflix bill",
+        "from": "info@members.netflix.com",
+        "age_days": 19,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m080",
+        "subject": "Google Calendar: Standup in 10 minutes",
+        "from": "calendar-notification@google.com",
+        "age_days": 19,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m044",
+        "subject": "Re: contractor invoice approval",
+        "from": "sam@paperjet.io",
+        "age_days": 19,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m097",
+        "subject": "Your weekly screen time report",
+        "from": "no-reply@apple.com",
+        "age_days": 18,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m073",
+        "subject": "Your Spotify receipt",
+        "from": "no-reply@spotify.com",
+        "age_days": 18,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m113",
+        "subject": "Welcome back to Coursera",
+        "from": "no-reply@coursera.org",
+        "age_days": 18,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m089",
+        "subject": "Your Lyft ride receipt",
+        "from": "no-reply@lyft.com",
+        "age_days": 18,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m065",
+        "subject": "[GitHub] A new sign-in to your account",
+        "from": "noreply@github.com",
+        "age_days": 18,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m008",
+        "subject": "Re: Staging is down again",
+        "from": "devika@paperjet.io",
+        "age_days": 18,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m105",
+        "subject": "New login to Figma",
+        "from": "noreply@figma.com",
+        "age_days": 18,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m081",
+        "subject": "Your order from Blue Bottle",
+        "from": "noreply@bluebottlecoffee.com",
+        "age_days": 18,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m041",
+        "subject": "my calendar rule (please remember)",
+        "from": "sam@paperjet.io",
+        "age_days": 17,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m098",
+        "subject": "PagerDuty: incident resolved",
+        "from": "noreply@pagerduty.com",
+        "age_days": 17,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m074",
+        "subject": "Product Hunt: today's top 5",
+        "from": "hello@producthunt.com",
+        "age_days": 17,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m015",
+        "subject": "Legal correspondence -- loop me in",
+        "from": "priya@paperjet.io",
+        "age_days": 17,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m114",
+        "subject": "Security digest for your Google Account",
+        "from": "no-reply@accounts.google.com",
+        "age_days": 17,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m090",
+        "subject": "Sentry: new issue in production",
+        "from": "alerts@sentry.io",
+        "age_days": 17,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m066",
+        "subject": "Your verification code is 448120",
+        "from": "security@accounts.google.com",
+        "age_days": 17,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m106",
+        "subject": "Your Postmark monthly summary",
+        "from": "support@postmarkapp.com",
+        "age_days": 17,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m082",
+        "subject": "Datadog: monitor OK again",
+        "from": "alerts@datadoghq.com",
+        "age_days": 17,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m026",
+        "subject": "Launch week -- kickoff",
+        "from": "priya@paperjet.io",
+        "age_days": 16,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m027",
+        "subject": "Re: Launch week -- kickoff",
+        "from": "dan@paperjet.io",
+        "age_days": 16,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m028",
+        "subject": "Re: Launch week -- kickoff",
+        "from": "maya@paperjet.io",
+        "age_days": 16,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m099",
+        "subject": "Your receipt from the App Store",
+        "from": "no_reply@email.apple.com",
+        "age_days": 16,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m075",
+        "subject": "Your domain paperjet.io renews soon",
+        "from": "support@namecheap.com",
+        "age_days": 16,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m029",
+        "subject": "Re: Launch week -- kickoff",
+        "from": "raghav@paperjet.io",
+        "age_days": 16,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m030",
+        "subject": "Re: Launch week -- kickoff",
+        "from": "priya@paperjet.io",
+        "age_days": 16,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m033",
+        "subject": "Re: Launch week -- kickoff",
+        "from": "maya@paperjet.io",
+        "age_days": 16,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m115",
+        "subject": "Your invoice from OpenAI",
+        "from": "receipts@openai.com",
+        "age_days": 16,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m091",
+        "subject": "Your monthly Notion invoice",
+        "from": "billing@notion.so",
+        "age_days": 16,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m067",
+        "subject": "Notion: 3 new comments",
+        "from": "notify@mail.notion.so",
+        "age_days": 16,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m107",
+        "subject": "Your Cloudflare weekly analytics",
+        "from": "noreply@cloudflare.com",
+        "age_days": 16,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m083",
+        "subject": "Your subscription to The Pragmatic Engineer",
+        "from": "newsletter@pragmaticengineer.com",
+        "age_days": 16,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m108",
+        "subject": "Your Robinhood account statement",
+        "from": "notifications@robinhood.com",
+        "age_days": 15,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m084",
+        "subject": "Apple: Your receipt",
+        "from": "no_reply@email.apple.com",
+        "age_days": 15,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m034",
+        "subject": "Re: Launch week -- kickoff",
+        "from": "dan@paperjet.io",
+        "age_days": 15,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m100",
+        "subject": "Mailchimp: your campaign report",
+        "from": "no-reply@mailchimp.com",
+        "age_days": 15,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m076",
+        "subject": "Zoom: Cloud recording is ready",
+        "from": "no-reply@zoom.us",
+        "age_days": 15,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m038",
+        "subject": "Board review scheduled",
+        "from": "chair@paperjet-board.org",
+        "age_days": 15,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m116",
+        "subject": "Your DigitalOcean invoice",
+        "from": "billing@digitalocean.com",
+        "age_days": 15,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m092",
+        "subject": "Twitter: you have new notifications",
+        "from": "info@twitter.com",
+        "age_days": 15,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m068",
+        "subject": "Your Medium Daily Digest",
+        "from": "noreply@medium.com",
+        "age_days": 15,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m051",
+        "subject": "coffee when you're back in town?",
+        "from": "wintermute@oldfriends.net",
+        "age_days": 15,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m109",
+        "subject": "Your Substack: 2 new posts",
+        "from": "no-reply@substack.com",
+        "age_days": 14,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m085",
+        "subject": "Stripe: A payout is on the way",
+        "from": "notifications@stripe.com",
+        "age_days": 14,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m010",
+        "subject": "Intro call this week?",
+        "from": "aria.f@northwind.vc",
+        "age_days": 14,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m101",
+        "subject": "Reminder: rate your recent support chat",
+        "from": "feedback@intercom.io",
+        "age_days": 14,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m077",
+        "subject": "Your statement is available",
+        "from": "alerts@chase.com",
+        "age_days": 14,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m040",
+        "subject": "board deck",
+        "from": "priya@paperjet.io",
+        "age_days": 14,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m057",
+        "subject": "We received your dispute",
+        "from": "help@paystream.com",
+        "age_days": 14,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m117",
+        "subject": "Reminder: submit your timesheet",
+        "from": "hr@paperjet.io",
+        "age_days": 14,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m069",
+        "subject": "Invoice paid: Vercel Pro",
+        "from": "invoice+statements@vercel.com",
+        "age_days": 14,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m093",
+        "subject": "Your Instacart order is delivered",
+        "from": "orders@instacart.com",
+        "age_days": 14,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m035",
+        "subject": "Re: Launch week -- kickoff",
+        "from": "raghav@paperjet.io",
+        "age_days": 14,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m017",
+        "subject": "Delivery Status Notification (Action Required)",
+        "from": "mailer-daemon@relay-postmaster.net",
+        "age_days": 14,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m024",
+        "subject": "Your weekly product digest",
+        "from": "noreply@newsletter-weekly-digest.com",
+        "age_days": 14,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m049",
+        "subject": "Weekly uptime report",
+        "from": "status@paperjet-monitoring.io",
+        "age_days": 13,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m061",
+        "subject": "Reminder: your appointment on Sep 15",
+        "from": "appointments@brightsmile-dental.com",
+        "age_days": 13,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m086",
+        "subject": "Your Calendly event was scheduled",
+        "from": "notifications@calendly.com",
+        "age_days": 13,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m062",
+        "subject": "Your receipt from Swiggy",
+        "from": "orders@swiggy.in",
+        "age_days": 13,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m110",
+        "subject": "Your Ramp receipt",
+        "from": "receipts@ramp.com",
+        "age_days": 13,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m036",
+        "subject": "Re: Launch week -- kickoff",
+        "from": "priya@paperjet.io",
+        "age_days": 13,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m042",
+        "subject": "Backend role -- following up",
+        "from": "jordan.okafor@gmail.com",
+        "age_days": 13,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m078",
+        "subject": "Figma: weekly activity",
+        "from": "updates@figma.com",
+        "age_days": 13,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m102",
+        "subject": "Your receipt from DoorDash",
+        "from": "no-reply@doordash.com",
+        "age_days": 13,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m021",
+        "subject": "URGENT: updated remittance details for invoice INV-4471",
+        "from": "billing@cloudscale-invoicing.com",
+        "age_days": 13,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m013",
+        "subject": "move our 1:1?",
+        "from": "raghav@paperjet.io",
+        "age_days": 13,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m118",
+        "subject": "Office closed Monday",
+        "from": "facilities@paperjet.io",
+        "age_days": 13,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m070",
+        "subject": "LinkedIn: You appeared in 9 searches",
+        "from": "notifications@linkedin.com",
+        "age_days": 13,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m045",
+        "subject": "Action required: your Google Workspace password expires in 2 hours",
+        "from": "it-security@paperjet-helpdesk.com",
+        "age_days": 13,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m094",
+        "subject": "Coursera: new course recommendations",
+        "from": "no-reply@coursera.org",
+        "age_days": 13,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m059",
+        "subject": "PTO next week",
+        "from": "devika@paperjet.io",
+        "age_days": 13,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m012",
+        "subject": "the thing",
+        "from": "priya@paperjet.io",
+        "age_days": 13,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m039",
+        "subject": "Updated assistant settings",
+        "from": "sam@paperjet.io",
+        "age_days": 12,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m053",
+        "subject": "Your ZenBoard plan renews in 7 days",
+        "from": "success@zenboard.io",
+        "age_days": 12,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m087",
+        "subject": "HackerNews Daily",
+        "from": "digest@hackernewsletter.com",
+        "age_days": 12,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m063",
+        "subject": "Your Uber trip receipt",
+        "from": "receipts@uber.com",
+        "age_days": 12,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m023",
+        "subject": "quick favor -- confidential",
+        "from": "priya.nair@paperjet.co",
+        "age_days": 12,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m111",
+        "subject": "Your Todoist daily digest",
+        "from": "no-reply@todoist.com",
+        "age_days": 12,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m018",
+        "subject": "PaperJet -- SAFE amendment for signature",
+        "from": "m.cho@hartwellcho.com",
+        "age_days": 12,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m016",
+        "subject": "PaperJet demo -- Wednesday?",
+        "from": "partners@acme-corp.com",
+        "age_days": 12,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m046",
+        "subject": "Quick question for our launch coverage",
+        "from": "editor@techbrief.news",
+        "age_days": 12,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m019",
+        "subject": "Confirming your booking",
+        "from": "events@thegrandvenue.com",
+        "age_days": 12,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m043",
+        "subject": "one more slot",
+        "from": "aria.f@northwind.vc",
+        "age_days": 12,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m103",
+        "subject": "Your GitHub Actions minutes",
+        "from": "noreply@github.com",
+        "age_days": 12,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m079",
+        "subject": "Your Grammarly Insights",
+        "from": "insights@grammarly.com",
+        "age_days": 12,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m048",
+        "subject": "PaperJet -- board minutes for review",
+        "from": "j.hartwell@hartwellcho.com",
+        "age_days": 12,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m047",
+        "subject": "Fwd: Re: ticket #55120 -- export failing",
+        "from": "support@zenboard.io",
+        "age_days": 12,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m055",
+        "subject": "PaperJet -- one more signature needed",
+        "from": "m.cho@hartwellcho.com",
+        "age_days": 12,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m119",
+        "subject": "Your 1:1 notes from last week",
+        "from": "notes@paperjet.io",
+        "age_days": 12,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m095",
+        "subject": "Your flight check-in is open",
+        "from": "checkin@united.com",
+        "age_days": 12,
+        "age_group": "More than 7 days"
+    },
+    {
+        "id": "m071",
+        "subject": "Your AWS bill is ready",
+        "from": "no-reply-aws@amazon.com",
+        "age_days": 12,
+        "age_group": "More than 7 days"
+    }
+]
