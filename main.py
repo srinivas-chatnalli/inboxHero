@@ -4,6 +4,7 @@ from pathlib import Path
 
 from disposition import process_inbox
 from inboxHero.actions import perform_actions
+from inboxHero.dashboard import generate_dashboard
 from inboxHero.memory import process_message
 from inboxHero.security import check_inbox_for_hostile_messages
 from reply import get_draft_reply_for_messages
@@ -87,6 +88,9 @@ def main():
         print(
             f"\nHostile messages found: {len(hostile_messages)}"
         )
+
+    elif args.cap == "R6":
+        generate_dashboard()
 
     else:
         print(f"Capability {args.cap} is not implemented.")

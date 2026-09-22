@@ -83,3 +83,8 @@ The `security` code checks for unwanted instructions and does not follow them.
 Instead, it logs them, prints them on the console, and keeps the emails as they are in the inbox without performing any action on them.
 
 
+## Part 6 Answer
+
+The `dashboard` code creates a dashboard with three sections: pending actions, flagged messages and commitments.
+
+

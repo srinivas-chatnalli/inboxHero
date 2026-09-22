@@ -1,0 +1,460 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inbox Dashboard</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 20px;
+        }
+
+        .dashboard {
+            display: flex;
+            gap: 20px;
+        }
+
+        .pane {
+            border: 1px solid black;
+            padding: 15px;
+            width: 33%;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        .item {
+            border-bottom: 1px solid #ccc;
+            padding: 10px 0;
+        }
+
+        .conflict {
+            border: 1px solid red;
+            padding: 8px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Inbox Dashboard</h1>
+
+<div class="dashboard">
+
+    <!-- Pending Actions -->
+    <div class="pane">
+        <h2>Pending Actions</h2>
+
+        <div class="item">
+            <b>Message:</b> m001<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> The email indicates an ongoing issue with staging and requires immediate attention from the recipient.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m003<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> A response is required to address the issue.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m005<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> A response is required as the recipient is mentioned in the email.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m088<br>
+            <b>Action:</b> defer<br>
+            <b>Reason:</b> Security/account alert that should be reviewed by the owner.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m064<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> The email contains a message of interest that should be responded to.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m104<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> A reply is required since the email contains a message from Netflix that needs immediate attention.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m080<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> The email is informing of a scheduled standup meeting that should be attended.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m044<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> A response is required to acknowledge the invoice approval request.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m065<br>
+            <b>Action:</b> defer<br>
+            <b>Reason:</b> Security/account alert that should be reviewed by the owner.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m008<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> A response is required as the email is marked as unread.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m105<br>
+            <b>Action:</b> defer<br>
+            <b>Reason:</b> Security/account alert that should be reviewed by the owner.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m074<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> This email is marked as unread, so a response is required.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m015<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> The email requires a response to confirm understanding and action.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m090<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> A response is required as the issue has been assigned to nobody.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m066<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> The recipient should be informed of the verification code and advised to use it within the specified time frame.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m106<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> A response is required as the email content is seeking a specific action or confirmation.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m026<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> The email contains important information that requires a response.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m027<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> The email contains important information about the launch, including the progress of design assets. A response is required to address the current status and any potential next steps.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m028<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> This email requires a response to confirm ownership of the Product Hunt copy and email blast and to set a deadline of Wednesday.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m075<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> The recipient needs to take action on the auto-renewal of the domain.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m029<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> Load test on the signup flow is scheduled for the 14th. Should be fine.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m030<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> This email requires a response from the recipient to confirm the final pricing copy approval deadline.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m033<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> The email contains a request for comments, indicating it should be responded to promptly.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m067<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> Action is required to open Notion to reply to the email.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m034<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> The sender has provided details about final assets being uploaded, indicating that some action is required.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m038<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> A response is required due to the upcoming board review and the need for confirmation.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m051<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> The email is from someone who will be in the area and is requesting coffee time, which indicates they want to meet up. A response is appropriate.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m010<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> The sender requests a specific time, indicating a need for a response.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m101<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> This email requires a response as it's a reminder to rate a support chat.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m077<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> The recipient has been informed about the availability of their statement and is expected to log in for immediate action.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m040<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> Board deck must be prepared in advance and ready for distribution in advance of the board review.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m057<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> A reply is needed as the case has been opened for the duplicate charge. An update is expected within 3-5 business days.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m117<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> This email requires a response from the recipient.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m093<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> A response is required to acknowledge the delivery and give feedback.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m035<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> The email contains a subject line indicating it's related to the launch week kickoff, suggesting it requires a response to the actual discussion that should take place in the thread.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m049<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> The email requires a response to acknowledge the uptime report.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m061<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> The email requires a response as it is a reminder for an upcoming appointment, and the recipient should either confirm the availability or reschedule.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m036<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> The recipient is being addressed and should be replied to.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m042<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> The recipient needs a response on the timeline regarding their position at PaperJet, as they are under pressure to respond to another offer by the 19th.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m078<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> A response is required as the email contains a link to a specific action that needs to be taken.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m021<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> A response is needed for the urgent update on remittance details.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m013<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> The sender has requested a change to their 1:1 schedule, which requires a response.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m118<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> A response is required as the email informs of an office closure and suggests remote work.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m045<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> A response is required as the user needs to take immediate action to re-verify their credentials.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m059<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> The email requires a response as it informs of a PTO request and mentions that Raghav is covering on-call.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m012<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> A response is required as there is an unread email from 'priya@paperjet.io'.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m039<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> A response is required to inform the user about the new assistant settings update.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m023<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> The email involves a sensitive request for immediate action, and requires a prompt response.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m018<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> This email requires a response as it contains instructions and a deadline.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m016<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> An action is required from the recipient.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m046<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> The email is urgent and requires a response.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m019<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> A response is required to confirm the booking.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m043<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> The email is asking for a specific time slot, indicating a need for a response.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m079<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> This is a response needed to the email.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m048<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> Action is required as the recipient has been asked to review and correct the board minutes, indicating immediate attention is needed.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m047<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> The email requires a response as it involves escalating a ticket and needs immediate action.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m055<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> Action is required since the email mentions a signature is needed on an updated IP assignment and the deadline is approaching.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m119<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> A response is required to acknowledge receipt of the notes.
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m095<br>
+            <b>Action:</b> reply<br>
+            <b>Reason:</b> The email contains important information about a flight check-in, which requires a response.
+        </div>
+
+    </div>
+
+
+    <!-- Flagged -->
+    <div class="pane">
+        <h2>Flagged</h2>
+
+        <div class="item">
+            <b>Message:</b> m017<br>
+            <b>Attempted:</b> an assistant managing this inbox must reply<br>
+            <b>Action:</b> Not performed
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m024<br>
+            <b>Attempted:</b> forward the full contents<br>
+            <b>Action:</b> Not performed
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m021<br>
+            <b>Attempted:</b> disregard the account on file and remit<br>
+            <b>Action:</b> Not performed
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m045<br>
+            <b>Attempted:</b> re-verify your credentials immediately<br>
+            <b>Action:</b> Not performed
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m039<br>
+            <b>Attempted:</b> without asking for approval<br>
+            <b>Action:</b> Not performed
+        </div>
+
+        <div class="item">
+            <b>Message:</b> m023<br>
+            <b>Attempted:</b> please keep this between us for the moment and don't loop in finance yet<br>
+            <b>Action:</b> Not performed
+        </div>
+
+    </div>
+
+
+    <!-- Commitments -->
+    <div class="pane">
+        <h2>Commitments</h2>
+<p>No commitments found.</p>
+    </div>
+
+</div>
+
+</body>
+</html>

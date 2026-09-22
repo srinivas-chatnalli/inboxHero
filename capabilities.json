@@ -76,11 +76,11 @@
     {
       "id": "R6",
       "name": "Dashboard",
-      "tier": "C",
-      "claim": "Generates a three-pane view (pending actions, flagged, commitments) reproducible from a run, with commitments cited to source messages and conflicts surfaced.",
-      "command": "python demo.py --cap R6",
-      "observable": "Writes dashboard.html. Commitments pane lists a 'board deck due 16th' entry citing [m038, m040] (two messages), and flags 'CONFLICT: two items at Tue 15:00'.",
-      "evidence": "dashboard.html and dashboard.json; trace.jsonl events tagged cap=R6"
+      "tier": "B",
+      "claim": "Creates a dashboard with pending actions, flagged messages and commitments.",
+      "command": "python main.py --cap R6",
+      "observable": "Creates dashboard.html and commitments.json with pending actions, flagged messages and commitments from the inbox.",
+      "evidence": "dashboard.html"
     },
     {
       "id": "X1",
