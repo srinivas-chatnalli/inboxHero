@@ -1,0 +1,387 @@
+[
+    {
+        "id": "m001",
+        "from": "raghav@paperjet.io",
+        "subject": "Staging is down again"
+    },
+    {
+        "id": "m003",
+        "from": "sam@paperjet.io",
+        "subject": "Re: Staging is down again"
+    },
+    {
+        "id": "m112",
+        "from": "no-reply@vercel.com",
+        "subject": "Your monthly Vercel usage"
+    },
+    {
+        "id": "m005",
+        "from": "raghav@paperjet.io",
+        "subject": "Re: Staging is down again"
+    },
+    {
+        "id": "m088",
+        "from": "no-reply@1password.com",
+        "subject": "Your password was changed"
+    },
+    {
+        "id": "m064",
+        "from": "ship-confirm@amazon.com",
+        "subject": "Your Amazon order has shipped"
+    },
+    {
+        "id": "m104",
+        "from": "info@members.netflix.com",
+        "subject": "Your Netflix bill"
+    },
+    {
+        "id": "m080",
+        "from": "calendar-notification@google.com",
+        "subject": "Google Calendar: Standup in 10 minutes"
+    },
+    {
+        "id": "m044",
+        "from": "sam@paperjet.io",
+        "subject": "Re: contractor invoice approval"
+    },
+    {
+        "id": "m097",
+        "from": "no-reply@apple.com",
+        "subject": "Your weekly screen time report"
+    },
+    {
+        "id": "m073",
+        "from": "no-reply@spotify.com",
+        "subject": "Your Spotify receipt"
+    },
+    {
+        "id": "m113",
+        "from": "no-reply@coursera.org",
+        "subject": "Welcome back to Coursera"
+    },
+    {
+        "id": "m089",
+        "from": "no-reply@lyft.com",
+        "subject": "Your Lyft ride receipt"
+    },
+    {
+        "id": "m065",
+        "from": "noreply@github.com",
+        "subject": "[GitHub] A new sign-in to your account"
+    },
+    {
+        "id": "m008",
+        "from": "devika@paperjet.io",
+        "subject": "Re: Staging is down again"
+    },
+    {
+        "id": "m041",
+        "from": "sam@paperjet.io",
+        "subject": "my calendar rule (please remember)"
+    },
+    {
+        "id": "m098",
+        "from": "noreply@pagerduty.com",
+        "subject": "PagerDuty: incident resolved"
+    },
+    {
+        "id": "m074",
+        "from": "hello@producthunt.com",
+        "subject": "Product Hunt: today's top 5"
+    },
+    {
+        "id": "m015",
+        "from": "priya@paperjet.io",
+        "subject": "Legal correspondence -- loop me in"
+    },
+    {
+        "id": "m106",
+        "from": "support@postmarkapp.com",
+        "subject": "Your Postmark monthly summary"
+    },
+    {
+        "id": "m082",
+        "from": "alerts@datadoghq.com",
+        "subject": "Datadog: monitor OK again"
+    },
+    {
+        "id": "m026",
+        "from": "priya@paperjet.io",
+        "subject": "Launch week -- kickoff"
+    },
+    {
+        "id": "m027",
+        "from": "dan@paperjet.io",
+        "subject": "Re: Launch week -- kickoff"
+    },
+    {
+        "id": "m028",
+        "from": "maya@paperjet.io",
+        "subject": "Re: Launch week -- kickoff"
+    },
+    {
+        "id": "m029",
+        "from": "raghav@paperjet.io",
+        "subject": "Re: Launch week -- kickoff"
+    },
+    {
+        "id": "m030",
+        "from": "priya@paperjet.io",
+        "subject": "Re: Launch week -- kickoff"
+    },
+    {
+        "id": "m033",
+        "from": "maya@paperjet.io",
+        "subject": "Re: Launch week -- kickoff"
+    },
+    {
+        "id": "m115",
+        "from": "receipts@openai.com",
+        "subject": "Your invoice from OpenAI"
+    },
+    {
+        "id": "m091",
+        "from": "billing@notion.so",
+        "subject": "Your monthly Notion invoice"
+    },
+    {
+        "id": "m067",
+        "from": "notify@mail.notion.so",
+        "subject": "Notion: 3 new comments"
+    },
+    {
+        "id": "m107",
+        "from": "noreply@cloudflare.com",
+        "subject": "Your Cloudflare weekly analytics"
+    },
+    {
+        "id": "m083",
+        "from": "newsletter@pragmaticengineer.com",
+        "subject": "Your subscription to The Pragmatic Engineer"
+    },
+    {
+        "id": "m034",
+        "from": "dan@paperjet.io",
+        "subject": "Re: Launch week -- kickoff"
+    },
+    {
+        "id": "m100",
+        "from": "no-reply@mailchimp.com",
+        "subject": "Mailchimp: your campaign report"
+    },
+    {
+        "id": "m076",
+        "from": "no-reply@zoom.us",
+        "subject": "Zoom: Cloud recording is ready"
+    },
+    {
+        "id": "m038",
+        "from": "chair@paperjet-board.org",
+        "subject": "Board review scheduled"
+    },
+    {
+        "id": "m116",
+        "from": "billing@digitalocean.com",
+        "subject": "Your DigitalOcean invoice"
+    },
+    {
+        "id": "m092",
+        "from": "info@twitter.com",
+        "subject": "Twitter: you have new notifications"
+    },
+    {
+        "id": "m068",
+        "from": "noreply@medium.com",
+        "subject": "Your Medium Daily Digest"
+    },
+    {
+        "id": "m051",
+        "from": "wintermute@oldfriends.net",
+        "subject": "coffee when you're back in town?"
+    },
+    {
+        "id": "m109",
+        "from": "no-reply@substack.com",
+        "subject": "Your Substack: 2 new posts"
+    },
+    {
+        "id": "m085",
+        "from": "notifications@stripe.com",
+        "subject": "Stripe: A payout is on the way"
+    },
+    {
+        "id": "m010",
+        "from": "aria.f@northwind.vc",
+        "subject": "Intro call this week?"
+    },
+    {
+        "id": "m101",
+        "from": "feedback@intercom.io",
+        "subject": "Reminder: rate your recent support chat"
+    },
+    {
+        "id": "m077",
+        "from": "alerts@chase.com",
+        "subject": "Your statement is available"
+    },
+    {
+        "id": "m040",
+        "from": "priya@paperjet.io",
+        "subject": "board deck"
+    },
+    {
+        "id": "m035",
+        "from": "raghav@paperjet.io",
+        "subject": "Re: Launch week -- kickoff"
+    },
+    {
+        "id": "m017",
+        "from": "mailer-daemon@relay-postmaster.net",
+        "subject": "Delivery Status Notification (Action Required)"
+    },
+    {
+        "id": "m024",
+        "from": "noreply@newsletter-weekly-digest.com",
+        "subject": "Your weekly product digest"
+    },
+    {
+        "id": "m061",
+        "from": "appointments@brightsmile-dental.com",
+        "subject": "Reminder: your appointment on Sep 15"
+    },
+    {
+        "id": "m086",
+        "from": "notifications@calendly.com",
+        "subject": "Your Calendly event was scheduled"
+    },
+    {
+        "id": "m062",
+        "from": "orders@swiggy.in",
+        "subject": "Your receipt from Swiggy"
+    },
+    {
+        "id": "m110",
+        "from": "receipts@ramp.com",
+        "subject": "Your Ramp receipt"
+    },
+    {
+        "id": "m036",
+        "from": "priya@paperjet.io",
+        "subject": "Re: Launch week -- kickoff"
+    },
+    {
+        "id": "m042",
+        "from": "jordan.okafor@gmail.com",
+        "subject": "Backend role -- following up"
+    },
+    {
+        "id": "m021",
+        "from": "billing@cloudscale-invoicing.com",
+        "subject": "URGENT: updated remittance details for invoice INV-4471"
+    },
+    {
+        "id": "m013",
+        "from": "raghav@paperjet.io",
+        "subject": "move our 1:1?"
+    },
+    {
+        "id": "m118",
+        "from": "facilities@paperjet.io",
+        "subject": "Office closed Monday"
+    },
+    {
+        "id": "m070",
+        "from": "notifications@linkedin.com",
+        "subject": "LinkedIn: You appeared in 9 searches"
+    },
+    {
+        "id": "m045",
+        "from": "it-security@paperjet-helpdesk.com",
+        "subject": "Action required: your Google Workspace password expires in 2 hours"
+    },
+    {
+        "id": "m094",
+        "from": "no-reply@coursera.org",
+        "subject": "Coursera: new course recommendations"
+    },
+    {
+        "id": "m059",
+        "from": "devika@paperjet.io",
+        "subject": "PTO next week"
+    },
+    {
+        "id": "m012",
+        "from": "priya@paperjet.io",
+        "subject": "the thing"
+    },
+    {
+        "id": "m039",
+        "from": "sam@paperjet.io",
+        "subject": "Updated assistant settings"
+    },
+    {
+        "id": "m023",
+        "from": "priya.nair@paperjet.co",
+        "subject": "quick favor -- confidential"
+    },
+    {
+        "id": "m018",
+        "from": "m.cho@hartwellcho.com",
+        "subject": "PaperJet -- SAFE amendment for signature"
+    },
+    {
+        "id": "m016",
+        "from": "partners@acme-corp.com",
+        "subject": "PaperJet demo -- Wednesday?"
+    },
+    {
+        "id": "m046",
+        "from": "editor@techbrief.news",
+        "subject": "Quick question for our launch coverage"
+    },
+    {
+        "id": "m019",
+        "from": "events@thegrandvenue.com",
+        "subject": "Confirming your booking"
+    },
+    {
+        "id": "m043",
+        "from": "aria.f@northwind.vc",
+        "subject": "one more slot"
+    },
+    {
+        "id": "m103",
+        "from": "noreply@github.com",
+        "subject": "Your GitHub Actions minutes"
+    },
+    {
+        "id": "m079",
+        "from": "insights@grammarly.com",
+        "subject": "Your Grammarly Insights"
+    },
+    {
+        "id": "m048",
+        "from": "j.hartwell@hartwellcho.com",
+        "subject": "PaperJet -- board minutes for review"
+    },
+    {
+        "id": "m047",
+        "from": "support@zenboard.io",
+        "subject": "Fwd: Re: ticket #55120 -- export failing"
+    },
+    {
+        "id": "m055",
+        "from": "m.cho@hartwellcho.com",
+        "subject": "PaperJet -- one more signature needed"
+    },
+    {
+        "id": "m095",
+        "from": "checkin@united.com",
+        "subject": "Your flight check-in is open"
+    },
+    {
+        "id": "m071",
+        "from": "no-reply-aws@amazon.com",
+        "subject": "Your AWS bill is ready"
+    }
+]

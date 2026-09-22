@@ -5,8 +5,11 @@ from pathlib import Path
 from disposition import process_inbox
 from inboxHero.actions import perform_actions
 from inboxHero.dashboard import generate_dashboard
+from inboxHero.email_age import track_email_age
 from inboxHero.memory import process_message
 from inboxHero.security import check_inbox_for_hostile_messages
+from inboxHero.sender_summary import create_sender_summary
+from inboxHero.unread_tracker import track_unread_messages
 from reply import get_draft_reply_for_messages
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -91,6 +94,10 @@ def main():
 
     elif args.cap == "R6":
         generate_dashboard()
+
+    elif args.cap == "X1":
+        result = track_unread_messages()
+        print(json.dumps(result, indent=4))
 
     else:
         print(f"Capability {args.cap} is not implemented.")

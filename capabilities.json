@@ -32,7 +32,7 @@
       "name": "Zero the inbox",
       "tier": "A",
       "claim": "Processes every message and assigns exactly one disposition(reply/archive/defer/delegate/escalate) with a reason.",
-      "command": "python main.py --cap R1",
+      "command": "python demo.py --cap R1",
       "observable": "Processes messages using rules or LLM and writes the disposition, reason, and processing method along with other message details for every message to inbox_messages/inbox_after_disposition.json.",
       "evidence": "inbox_messages/inbox_after_disposition.json"
     },
@@ -41,7 +41,7 @@
       "name": "Grounded reply",
       "tier": "B",
       "claim": "Drafts replies using relevant earlier messages from the same thread and records the source message ids used. (Used walking the thread technique)",
-      "command": "python main.py --cap R2",
+      "command": "python demo.py --cap R2",
       "observable": "Retrieves earlier messages from the same thread, drafts a grounded reply, and writes the reply and source message ids to inbox_messages/inbox_after_reply.json.",
       "evidence": "inbox_messages/inbox_after_reply.json"
     },
@@ -50,7 +50,7 @@
       "name": "Gate the irreversible",
       "tier": "C",
       "claim": "Requires human approval before performing irreversible actions such as send and delete, while reversible actions such as draft, archive, and mark_read can be performed automatically.",
-      "command": "python main.py --cap R3 --message_id m005",
+      "command": "python demo.py --cap R3 --message_id m005",
       "observable": "Shows the proposed action, prompts for approval before send/delete, performs the action only when approved, and records the proposed action, human decision, and outcome.",
       "evidence": "logs/action_operation_logs, outbox"
     },
@@ -59,8 +59,8 @@
       "name": "Persistent preference",
       "tier": "C",
       "claim": "Stores an owner's preference and uses it when processing a later message.",
-      "command": "python main.py --cap R4 --preference 'Always archive emails from Raghav.'",
-      "command_2": "python main.py --cap R4 --message_id m005",
+      "command": "python demo.py --cap R4 --preference 'Always archive emails from Raghav.'",
+      "command_2": "python demo.py --cap R4 --message_id m005",
       "observable": "Stores the preference in memory.json (preference is Always archive emails from Raghav) and uses it when the related message is processed after restart.",
       "evidence": "memory.json and processing output"
     },
@@ -69,7 +69,7 @@
       "name": "Refuse embedded instructions",
       "tier": "B",
       "claim": "Checks emails for unwanted instructions and does not follow them(messages with thread_id of t-phish/t-inj).",
-      "command": "python main.py --cap R5",
+      "command": "python demo.py --cap R5",
       "observable": "Shows the hostile message id and what it tried to do, logs it, and leaves the message in the inbox. (example messages with id m017, m024 etc)",
       "evidence": "logs/hostile_messages.json and console output"
     },
@@ -78,18 +78,18 @@
       "name": "Dashboard",
       "tier": "B",
       "claim": "Creates a dashboard with pending actions, flagged messages and commitments.",
-      "command": "python main.py --cap R6",
+      "command": "python demo.py --cap R6",
       "observable": "Creates dashboard.html and commitments.json with pending actions, flagged messages and commitments from the inbox.",
       "evidence": "dashboard.html"
     },
     {
       "id": "X1",
-      "name": "Follow-up tracking",
-      "tier": "B",
-      "claim": "Finds messages I sent that nobody has answered in 3+ days, and drafts a chase for each.",
+      "name": "Unread Tracker",
+      "tier": "A",
+      "claim": "Shows all unread emails.",
       "command": "python demo.py --cap X1",
-      "observable": "Prints a JSON list of {message_id, days_waiting, draft}. m022 (sent, unanswered) appears; m014 (already answered in-thread) does not.",
-      "evidence": "trace.jsonl, events tagged cap=X1"
+      "observable": "Creates unread_messages.json with the unread emails.",
+      "evidence": "unread_messages.json"
     },
     {
       "id": "X2",

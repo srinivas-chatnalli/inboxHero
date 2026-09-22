@@ -6,11 +6,16 @@
 Run everything through one entry point:
 
 ```
-python main.py --cap R1        # one capability
-python main.py --all           # all of them, in the order below
+python demo.py --cap R1        # one capability
+python demo.py --all           # all of them, in the order below
 ```
 
 ---
+
+## MODELS USED
+
+"qwen2.5:1.5B/qwen3:4b"
+
 
 ## Part 1 Answer
 
@@ -85,6 +90,12 @@ Instead, it logs them, prints them on the console, and keeps the emails as they 
 
 ## Part 6 Answer
 
+Model Used: qwen3:4b
+
 The `dashboard` code creates a dashboard with three sections: pending actions, flagged messages and commitments.
 
+
+## Capability X1 – Unread Tracker
+
+Shows all unread emails from the inbox.
 
